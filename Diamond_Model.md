@@ -85,8 +85,18 @@ This pivoting aspect of the approach, in which you begin with one component and 
 
 To understand how these four components interact and how to apply the model successfully, you must first grasp the axioms that underpin the Diamond Model. These agreed assumptions are required to use the model effectively.
 
-Sources:
+# Sources:
 
 https://kravensecurity.com/diamond-model-analysis/
 
 https://www.activeresponse.org/diamond-model-axioms/
+
+
+Claude.ai
+
+Prompted on 18/03/2026 around 17:45: 
+
+
+I would like to see similair framework for Cybersecurity like: the Diamond Model and the Cyber Kill Chain.
+
+Make sure the source is correct and make no mistakes.
