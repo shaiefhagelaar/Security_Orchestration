@@ -87,12 +87,14 @@ To understand how these four components interact and how to apply the model succ
 
 # Sources:
 
+## Websites
+
 https://kravensecurity.com/diamond-model-analysis/
 
 https://www.activeresponse.org/diamond-model-axioms/
 
 
-Claude.ai
+## claude.ai
 
 Prompted on 18/03/2026 around 17:45: 
 
