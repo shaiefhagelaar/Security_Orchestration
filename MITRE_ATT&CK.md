@@ -1,5 +1,10 @@
 # MITRE ATT&CK
 
+## Most common use cases
+Detection engineering
+Red teaming
+SOC Operations
+
 MITRE Corporation · 2015
 
 A globally accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. Not linear — techniques map to any tactic at any stage.
@@ -14,12 +19,12 @@ ATT&CK is a globally accessible knowledge base of adversary tactics and techniqu
 
 ## How it's used in a SOC day-to-day
 The power of ATT&CK lies in its ability to create a collective operational map across an entire security program. When a SIEM fires "Suspicious LSASS Access", mapping it to T1003.001 instantly tells every analyst what is happening — credential dumping via direct memory access to the Local Security Authority Subsystem Service. Medium
-For detection engineering specifically, detection rules can be tagged with ATT&CK IDs, allowing you to detect coverage gaps. If you have 50 detections for T1059 (Command and Scripting Interpreter) but zero for T1574 (Hijack Execution Flow), you know exactly where to deploy effort. Medium
+For detection engineering specifically, detection rules can be tagged with ATT&CK IDs, allowing you to detect coverage gaps. If you have 50 detections for T1059 (Command and Scripting Interpreter) but zero for T1574 (Hijack Execution Flow), you know exactly where to deploy effort.
 For threat intelligence, listing attacker TTPs in a structured and usable way enables threat-informed cyber defense — the assumption being that it is possible to predict an attacker's future behavior based on past observed TTPs. IEEE Xplore
 Measuring SOC maturity
-Coverage percentage by tactic can be tracked over time. If Q1 shows 45% coverage and Q3 reaches 68%, that is a quantifiable security improvement that can be shared with leadership to demonstrate SOC maturity and justify security investments. Medium
+Coverage percentage by tactic can be tracked over time. If Q1 shows 45% coverage and Q3 reaches 68%, that is a quantifiable security improvement that can be shared with leadership to demonstrate SOC maturity and justify security investments.
 How red and blue teams use it together
-ATT&CK-based red team exercises simulate specific threat actors' TTPs to test defensive measures against real-world attack scenarios PYnomial, rather than generic vulnerability scanning. Instead of "try to compromise us", you can request specific technique validation: "Execute T1003.001, T1021.002, and T1048.003 — verify your detections work." Medium
+ATT&CK-based red team exercises simulate specific threat actors' TTPs to test defensive measures against real-world attack scenarios PYnomial, rather than generic vulnerability scanning. Instead of "try to compromise us", you can request specific technique validation: "Execute T1003.001, T1021.002, and T1048.003 — verify your detections work."
 For your career path specifically — as a future SOC analyst or detection engineer, the Enterprise Matrix tab and the Career tab are your most immediately relevant views. Every senior analyst you'll work alongside thinks in ATT&CK IDs. Starting to recognize techniques by their T-numbers (T1059 for scripting, T1003 for credential dumping, T1021 for lateral movement) will give you a strong head start in interviews and on the job.
 
 # Sources 
