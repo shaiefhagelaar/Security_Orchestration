@@ -7,6 +7,8 @@ Comprised of several online sources. The information is touching on certain subj
 
 https://ecs-org.eu/
 
+https://www.ibm.com/think/topics/security-orchestration-automation-response
+
 https://www.cisa.gov/topics/cybersecurity-best-practices/organizations-and-cyber-safety
 
 https://news.un.org/en/story/2025/10/1166182
