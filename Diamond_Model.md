@@ -1,4 +1,4 @@
-Diamond Model
+# Diamond Model
 
 The Diamond Model (the Diamond Model of Intrusion Analysis) is an intelligence tool used as a framework to analyse cyber intrusions, mapping correlations between:
 
@@ -8,7 +8,8 @@ The Diamond Model (the Diamond Model of Intrusion Analysis) is an intelligence t
     Victim: Who was targeted and why were they targeted?
 
 When used efficiently by the defenders, it can help with answering several perspectives regarding the attack and its context. The context can be categorised into subchapters to keep a clear objective:
-Adversary:
+
+## Adversary
 
 Whomever is attacking gets defined in this subchapter. Whether this is a nation-state, cybercriminal, disgruntled employee or script kiddie. There's a distinction between the following:
 
@@ -34,7 +35,8 @@ The organization of who is really carrying out the attack and the number of oper
 Using incursion data in this way isn't always the simplest.
 
 Instead of naming a state or gang right away, start by tracking the online presence used, accounts observed (social media, email, etc.), and the aim of an attack. This will allow you to more precisely link the attacks to an entity or campaign based on available data by correlating these Adversary data points with other campaigns.
-Infrastructure
+
+## Infrastructure
 
 An adversary will use infrastructure to deploy their capabilities. An attacker can utilize any of these things to demonstrate their abilities. It can be logical, like an email address or service account, or physical, like a command-and-control (C2) server.
 
@@ -55,7 +57,7 @@ The following are some typical infrastructure types that you will frequently enc
     Tor nodes
     Compromised websites
 
-Capability
+## Capability
 
 The tactics, methods, and procedures (TTPs) that the adversary employs to carry out the attack are referred to as capability. This falls into the following categories:
 
@@ -66,7 +68,8 @@ When mapping Capabilities to the Diamond Model, prioritize specifics. When it co
 These could be considered crucial signs. Indicators that stay consistent throughout intrusions identify an attack campaign and correspond to a stage of the Cyber Kill Chain. They are indications that can be used to monitor attack campaigns or threat actors, differentiate incursions, and locate them in your environment.
 
 These could be considered crucial signs. Indicators that stay consistent throughout intrusions identify an attack campaign and correspond to a stage of the Cyber Kill Chain. They are indications that can be used to monitor attack campaigns or threat actors, differentiate incursions, and locate them in your environment.
-Victim
+
+## Victim
 
 The victim is the target of the attack, or "Capabilities disseminated across Infrastructure by the Adversary." The victim can be an individual or an organization whose assets have been impacted by the assault (computer systems, networks, data, etc.). Victims are rarely directly related to the attacker; instead, they are linked via infrastructure or capability.
 
