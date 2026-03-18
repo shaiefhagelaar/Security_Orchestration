@@ -9,11 +9,10 @@ Key matrices
     Mobile
     ICS (Industrial Control Systems)
 
-![Uploading image.png…]()
-
-What ATT&CK actually is
+## What ATT&CK actually is
 ATT&CK is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations EC-Council, and it's completely free. The framework documents 196 individual techniques and 411 sub-techniques, covering Windows, Linux, macOS, and mobile platforms. IJRASET The key distinction from the Cyber Kill Chain is that ATT&CK is non-linear — an adversary can apply techniques from multiple tactics simultaneously or in any order.
-How it's used in a SOC day-to-day
+
+## How it's used in a SOC day-to-day
 The power of ATT&CK lies in its ability to create a collective operational map across an entire security program. When a SIEM fires "Suspicious LSASS Access", mapping it to T1003.001 instantly tells every analyst what is happening — credential dumping via direct memory access to the Local Security Authority Subsystem Service. Medium
 For detection engineering specifically, detection rules can be tagged with ATT&CK IDs, allowing you to detect coverage gaps. If you have 50 detections for T1059 (Command and Scripting Interpreter) but zero for T1574 (Hijack Execution Flow), you know exactly where to deploy effort. Medium
 For threat intelligence, listing attacker TTPs in a structured and usable way enables threat-informed cyber defense — the assumption being that it is possible to predict an attacker's future behavior based on past observed TTPs. IEEE Xplore
